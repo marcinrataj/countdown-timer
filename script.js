@@ -9,7 +9,7 @@ const newYears = "1 Jan 2023";
 function countdown() {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
-window.setInterval(location.reload(true), 2000);
+window.setInterval(location.reload(true), 10000);
     const totalSeconds = (newYearsDate - currentDate) / 1000;
 
     const days = Math.floor(totalSeconds / 3600 / 24);
