@@ -30,4 +30,3 @@ function formatTime(time) {
 // initial call
 countdown();
 formatTime();
-Location.reload()
